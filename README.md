@@ -43,17 +43,52 @@ Requires a version of Claudette with OpenPeon community pack support.
 
 ## What's included
 
-This pack covers the five CESP categories defined in `openpeon.json`, with four phrasing variants for each so the same line doesn't repeat back-to-back:
+This pack covers the five CESP categories defined in `openpeon.json`, each with four phrasing variants so the same line doesn't repeat back-to-back. Claudette picks one of the four at random per event.
 
-| Category           | When it plays                                              | Example line                            |
-| ------------------ | ---------------------------------------------------------- | --------------------------------------- |
-| `session.start`    | A new Claudette session begins                             | "Hi — what are we working on?"          |
-| `task.acknowledge` | A plan has been drafted and is ready for your review       | "Here's the plan — mind reviewing it?"  |
-| `input.required`   | Claudette needs input (permission prompts, questions)      | "Quick question when you're ready."     |
-| `task.complete`    | Work has finished and control is back to you               | "All done!"                             |
-| `task.error`       | Something failed and needs attention                       | "Hit a snag — could use your help."     |
+### `input.required` — agent needs your input
 
-Each clip is short, clear, and designed to be informative without becoming intrusive over a long work session. Full label text for every variant lives in `openpeon.json`.
+Polite, attention-getting, not alarming. Plays when Claudette needs you (permission prompts, questions).
+
+1. "I have a question for you."
+2. "Could you take a look at this?"
+3. "Got a sec? I need your input."
+4. "Quick question when you're ready."
+
+### `task.acknowledge` — plan ready for review
+
+Signals *"I've thought about this — please approve."* Plays when an agent has drafted a plan and is awaiting your sign-off.
+
+1. "Here's the plan — mind reviewing it?"
+2. "I've put together a plan for you."
+3. "Ready when you are — plan's drafted."
+4. "Take a look at my plan when you have a moment."
+
+### `task.complete` — work finished
+
+Satisfying, conclusive, mildly proud. Plays when an agent finishes and hands control back.
+
+1. "All done!"
+2. "Task complete."
+3. "Finished — back to you."
+4. "Wrapped it up."
+
+### `task.error` — something went wrong
+
+Apologetic and clear without being dramatic — you'll read the error yourself anyway.
+
+1. "Hit a snag — could use your help."
+2. "Something went wrong."
+3. "Ran into a problem."
+4. "Sorry, that didn't work."
+
+### `session.start` — new session begins
+
+Greeting energy, ready-to-work.
+
+1. "Ready when you are."
+2. "Let's get started."
+3. "Hi — what are we working on?"
+4. "Standing by."
 
 ## Customization
 
