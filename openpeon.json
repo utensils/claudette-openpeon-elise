@@ -2,7 +2,8 @@
   "cesp_version": "1.0",
   "name": "openpeon-elise-soundpack",
   "display_name": "Elise",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "language": "en",
   "categories": {
     "input.required": {
       "sounds": [
