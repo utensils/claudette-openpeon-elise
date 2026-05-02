@@ -2,26 +2,43 @@
   "cesp_version": "1.0",
   "name": "openpeon-elise-soundpack",
   "display_name": "Elise",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "description": "Agent event and completion sounds for Claudette, voiced by ElevenLabs' Elise.",
+  "author": {
+    "name": "Doomspork",
+    "github": "doomspork"
+  },
+  "license": "MIT",
   "language": "en",
+  "homepage": "https://github.com/utensils/openpeon-elise-soundpack",
+  "tags": [
+    "tts",
+    "elevenlabs",
+    "ai-voice",
+    "claudette"
+  ],
   "categories": {
     "input.required": {
       "sounds": [
         {
           "file": "sounds/input_required_01.mp3",
-          "label": "I have a question for you."
+          "label": "I have a question for you.",
+          "sha256": "9182301caac2e05fefddc4228b29e36a920ad95044227da843144ac3782262b3"
         },
         {
           "file": "sounds/input_required_02.mp3",
-          "label": "Could you take a look at this?"
+          "label": "Could you take a look at this?",
+          "sha256": "65a7379024e22fe4651cccfb2611f2a83e20a1d00b85538c82519cbc59981134"
         },
         {
           "file": "sounds/input_required_03.mp3",
-          "label": "Got a sec? I need your input."
+          "label": "Got a sec? I need your input.",
+          "sha256": "dddf8fbbb9e1e59979e9e24372f6e8b086d92cb2b7986efcb3eba4938e83c67d"
         },
         {
           "file": "sounds/input_required_04.mp3",
-          "label": "Quick question when you're ready."
+          "label": "Quick question when you're ready.",
+          "sha256": "15837bc944fd9d97d63cdde5283230f61a9d33b9110ddee5450b65f548e1bab8"
         }
       ]
     },
@@ -29,19 +46,23 @@
       "sounds": [
         {
           "file": "sounds/task_acknowledge_01.mp3",
-          "label": "Here's the plan — mind reviewing it?"
+          "label": "Here's the plan — mind reviewing it?",
+          "sha256": "725532a836809cbadda5fafd089d0c152e0098d35762b806cff2497763130a90"
         },
         {
           "file": "sounds/task_acknowledge_02.mp3",
-          "label": "I've put together a plan for you."
+          "label": "I've put together a plan for you.",
+          "sha256": "482016b9c4fa09e5ec05f346c3be32694613f39a166ee64033f83405920f47db"
         },
         {
           "file": "sounds/task_acknowledge_03.mp3",
-          "label": "Ready when you are — plan's drafted."
+          "label": "Ready when you are — plan's drafted.",
+          "sha256": "d0b917ae3c87c59d3ce4a7d7dae0faf69c49bfd4863cfbbf0a741ecadf403907"
         },
         {
           "file": "sounds/task_acknowledge_04.mp3",
-          "label": "Take a look at my plan when you have a moment."
+          "label": "Take a look at my plan when you have a moment.",
+          "sha256": "d34f7e98d42d8fa04cde1a04fdcd0a9f43635e6b5aeea35df1bc0b2719200d5d"
         }
       ]
     },
@@ -49,19 +70,23 @@
       "sounds": [
         {
           "file": "sounds/task_complete_01.mp3",
-          "label": "All done!"
+          "label": "All done!",
+          "sha256": "b3702a31a5dac0062188bf156f61305fd6d9e146d5b73c05fef1d6dd6c5b8e07"
         },
         {
           "file": "sounds/task_complete_02.mp3",
-          "label": "Task complete."
+          "label": "Task complete.",
+          "sha256": "21703cba3764c04012a307e1ede770b7cde577bf193f608ade91bd4d3901a4ef"
         },
         {
           "file": "sounds/task_complete_03.mp3",
-          "label": "Finished — back to you."
+          "label": "Finished — back to you.",
+          "sha256": "e1c770c94309465c351e2c70fb7c0cca3e3013caad4c5d47c1b95f6a4febd1e9"
         },
         {
           "file": "sounds/task_complete_04.mp3",
-          "label": "Wrapped it up."
+          "label": "Wrapped it up.",
+          "sha256": "ac2793ba696bb874911a23809906d78174fd36cab2d5dc1677492f700ff14786"
         }
       ]
     },
@@ -69,19 +94,23 @@
       "sounds": [
         {
           "file": "sounds/task_error_01.mp3",
-          "label": "Hit a snag — could use your help."
+          "label": "Hit a snag — could use your help.",
+          "sha256": "4fc8bc11d8d830b2cb44e6fba2a26b7490e8cfb2f55f486f446fc6ecc8923f4e"
         },
         {
           "file": "sounds/task_error_02.mp3",
-          "label": "Something went wrong."
+          "label": "Something went wrong.",
+          "sha256": "1dcf7db354c40cb75f57748b05481e74410420b6cdf0659a163c190bc995ee7c"
         },
         {
           "file": "sounds/task_error_03.mp3",
-          "label": "Ran into a problem."
+          "label": "Ran into a problem.",
+          "sha256": "5d01d57b101e89ca3d113eb0f83535b1ebe95c9c406d04cd19e46c18729df49c"
         },
         {
           "file": "sounds/task_error_04.mp3",
-          "label": "Sorry, that didn't work."
+          "label": "Sorry, that didn't work.",
+          "sha256": "9fbd5365a533ac4f6b93365dcf631ebfd9f849777abcb18174b1122405d6b4c7"
         }
       ]
     },
@@ -89,19 +118,23 @@
       "sounds": [
         {
           "file": "sounds/session_start_01.mp3",
-          "label": "Ready when you are."
+          "label": "Ready when you are.",
+          "sha256": "ebed36b02d4d744658144c6cc8436bbc6fcc0024ca94006a84cb3d39893c681f"
         },
         {
           "file": "sounds/session_start_02.mp3",
-          "label": "Let's get started."
+          "label": "Let's get started.",
+          "sha256": "665dd3c32877604c23f252b040d54c3881e1c5c58212734e5112d035221980ee"
         },
         {
           "file": "sounds/session_start_03.mp3",
-          "label": "Hi — what are we working on?"
+          "label": "Hi — what are we working on?",
+          "sha256": "5269693b8e1db8473b02e265bffe68eb3f7ebc4e3abea34a2db5eb3b664330e7"
         },
         {
           "file": "sounds/session_start_04.mp3",
-          "label": "Standing by."
+          "label": "Standing by.",
+          "sha256": "00136a8b1e74c98f8cbd9463917cd1b57b939212ed3239ae5123c3de9c3da98a"
         }
       ]
     },
@@ -109,19 +142,23 @@
       "sounds": [
         {
           "file": "sounds/resource_limit_01.mp3",
-          "label": "We've hit the limit."
+          "label": "We've hit the limit.",
+          "sha256": "4f26637f60156a8127034eba177a1e416f6d4f976f399648e3aa4a11aaa09e1a"
         },
         {
           "file": "sounds/resource_limit_02.mp3",
-          "label": "Out of headroom for now."
+          "label": "Out of headroom for now.",
+          "sha256": "8bef1d860633b10b1167e79cb38e8aa95fa1a55c4d6d4a74654ea7fbdbdea425"
         },
         {
           "file": "sounds/resource_limit_03.mp3",
-          "label": "Quota's reached — taking a breather."
+          "label": "Quota's reached — taking a breather.",
+          "sha256": "f213bde2515c350ae20a7a260d55ef8e83b072884c44fbe7bece0b28ed6122e2"
         },
         {
           "file": "sounds/resource_limit_04.mp3",
-          "label": "That's the limit on this one."
+          "label": "That's the limit on this one.",
+          "sha256": "0e673cf3e5e8e3f5d51784a54d3d6be996ef8fcffcf411c1f137fccf196ee943"
         }
       ]
     }
